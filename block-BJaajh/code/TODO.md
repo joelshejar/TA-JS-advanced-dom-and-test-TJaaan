@@ -1,19 +1,19 @@
 ## Writing Test
 
-Write test for the following functions:
+Write 5 tests for the following functions:
 
 ```js
-unction checkFive(num){
-   let result = '';
-   if (num < 5){
-      result = num + " is less than 5.";
-   } else if (num === 5){
-      result = num + " is equal to 5.";
-   } else {
-      result = num + " is greater than 5.";
-   }
+function checkFive(num) {
+  let result = '';
+  if (num < 5) {
+    result = num + ' is less than 5.';
+  } else if (num === 5) {
+    result = num + ' is equal to 5.';
+  } else {
+    result = num + ' is greater than 5.';
+  }
 
-   return result;
+  return result;
 }
 ```
 
