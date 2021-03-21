@@ -1,9 +1,10 @@
-## Using node and npm
+## Using node and NPM
 
-- Create a folder and initialize it with npm
+- Create a folder and initialize it with NPM
 - Add a package named `parcel-bundler`
 - Create a live server
-- Using the instructions given below user `moment` and `lodash` in `index.js`
+- Use the `moment` library (https://momentjs.com/)
+- Also use the `lodash` library
 
 #### Use the following links to read documentation
 
@@ -19,7 +20,7 @@ Print Date or Time in the following format:
 - `Friday`
 - `Feb 12th 21`
 
-Check if the following date is vslid or not:
+Check if the following date is valid or not:
 
 - `2020-01-01`
 - `2020-14-01`
