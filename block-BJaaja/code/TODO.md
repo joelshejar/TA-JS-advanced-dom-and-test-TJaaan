@@ -1,8 +1,8 @@
 ## Using ESLint
 
-- Create a folder with a js file
+- Create a folder with a `.js` file
 - Install and setup the `eslint`
-- Go through [https:
+- Go through [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
 - List 10 bad practices from the link above
 - Check if you get error (red underline) in VSCode.
 - Comment the bad code and fix it below that
