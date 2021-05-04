@@ -1,0 +1,90 @@
+html{
+    font-size: 16px;
+}
+body{
+    background-color: rgb(108, 151, 201);
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    color: white;
+}
+input{
+    background-color: rgba(108, 151, 201,0.5);
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+    outline: none;
+}
+input::placeholder{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba($color: rgb(226, 217, 217), $alpha: 0.9);
+}
+
+.form{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+span{
+    padding:1rem 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+}
+
+li{
+    padding:0.7rem 1rem;
+    background: white;
+    color: rgb(108, 151, 201);
+    font-size: 1.25rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+    cursor: move;
+    &:after{
+        
+        font-size: 1rem;
+        position: absolute;
+        opacity: 0;
+        right: 10px;
+        transition: all 1s ease-in-out;
+    }
+    &:hover{
+        &:after{
+            opacity: 1;
+        }
+    }
+}
+
+
+.over {
+    transform: scale(1.1, 1.1);
+}
