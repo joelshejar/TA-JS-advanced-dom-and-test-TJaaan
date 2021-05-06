@@ -53,3 +53,4 @@ function reduce(items, reducer, inititalValue = items[0]) {
 ```
 
 Hint: You can use this link to learn about how to mock function while testing [https://jestjs.io/docs/en/mock-functions](https://jestjs.io/docs/en/mock-functions)
+
