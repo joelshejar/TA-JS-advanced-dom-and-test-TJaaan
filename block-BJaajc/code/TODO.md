@@ -19,3 +19,6 @@ Pass the radius of a circle to the function and it returns the circumference bas
 - Create a function called `getArea`:
 
 Pass the radius to the function and it returns the area based on the radius, and output `The area is NN`.
+
+
+npm install -g npm@7.11.2
